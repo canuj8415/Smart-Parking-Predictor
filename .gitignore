@@ -1,0 +1,65 @@
+# Future local build, dataset, model and experiment artifacts
+/build/
+/out/
+/dependencies/
+/data/raw/
+/data/processed/
+/data/splits/*/*.csv
+# Regenerable all-TRAIN audit data; checksums and summaries stay in experiments.
+/data/splits/open-space-train-audit-v1/
+/models/checkpoints/
+/models/exported/
+/models/pretrained/
+/outputs/
+/data/manifests/pklot_crops.csv
+/experiments/logs/
+/experiments/results/**
+!/experiments/results/**/
+!/experiments/results/**/*.json
+!/experiments/results/**/*.png
+!/experiments/results/**/observations.csv
+# Local kernel connection keys/runtime state are not experiment results.
+/experiments/results/JUPYTER-OFFLINE-*/jupyter/
+/experiments/results/JUPYTER-OFFLINE-*/ipython/
+# Notebook kernel connection keys and runtime caches are not study evidence.
+/experiments/results/SG-LESSON-*/kernel/
+/experiments/results/VISION-LESSON-*/kernel/
+!/experiments/results/VISION-LESSON-*/*.ipynb
+# Small checksum-bound UVG truth/prediction masks support archived metric replay.
+!/experiments/results/UVG-DETECTORS-*/*.npz
+!/experiments/results/UVG-DETECTORS-*/summary.csv
+!/experiments/results/UVG-DETECTORS-*/class_size_diagnostic.csv
+!/experiments/results/UVG-TILES-*/*.npz
+!/experiments/results/UVG-TILES-*/summary.csv
+!/experiments/results/UVG-TILES-*/known_nonroad_overlap_audit.py
+!/experiments/results/UVG-MASK-DEDUP-*/*.npz
+*.exe
+*.dll
+*.obj
+*.pdb
+.env
+.env.*
+__pycache__/
+*.pyc
+.venv/
+.jupyter/
+.ipython/
+.cache/
+.ipynb_checkpoints/
+/tmp/pdfs/
+/output/reports/
+# Preserve private presentation-validator scratch files outside source history.
+/.chart-data-*/
+# Local lesson kernels contain connection keys and mutable runtime files.
+/experiments/results/REGION-FPN-*/lesson_validation*/kernel/
+
+# Added during upload prep
+__pycache__/
+*.pyc
+.venv/
+/data/
+/models/
+/experiments/
+/reports/
+/output/
+/tmp/

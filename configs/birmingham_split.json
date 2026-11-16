@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-DS-003",
+  "split_id": "birmingham-global-days-v1",
+  "raw_csv": "data/raw/uci_parking_birmingham/dataset.csv",
+  "expected_csv_sha256": "F1E28B9C697769A1A05CD20148241B60B1A73FEE4907611163EFC6FD9D12770A",
+  "output_directory": "data/splits/birmingham-global-days-v1",
+  "train_fraction": 0.70,
+  "validation_fraction": 0.15,
+  "split_group": "global_capture_date",
+  "ordering": "chronological",
+  "timezone": "unspecified_in_source; preserve wall-clock timestamps",
+  "duplicate_policy": "keep first identical key/value record; quarantine all conflicting key records",
+  "invalid_count_policy": "quarantine; never clip observations",
+  "resampling": "none",
+  "window_generation": "not performed; future windows must remain within one split, car park and eligible continuous segment",
+  "gap_warning_minutes": 45
+}

@@ -1,0 +1,8 @@
+# Observed core Python 3.12.10 environment. No upgrades were made to shared .venv.
+torch==2.14.0
+torchvision==0.29.0
+numpy==2.5.3
+Pillow==12.3.0
+matplotlib==3.11.2
+# Video decoder is installed separately into dependencies/python by setup_video.py.
+# Its verified cached wheel is opencv-python-headless==4.13.0.92.

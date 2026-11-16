@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-DS-001",
+  "split": "train",
+  "camera_id": "pucpr",
+  "capture_date": "2012-09-11",
+  "image": "data/raw/pklot_subset/PKLot/parking2/sunny/2012-09-11/2012-09-11_15_16_58.jpg",
+  "layout": "configs/layouts/pucpr_2012-09-11_15_16_58.json",
+  "image_sha256": "2163d73485dbfbaf53fedb1eac7f4eb749ed5731fff00223a4b799eec0a03c0e",
+  "layout_sha256": "2b9e367378b5e60de50c70724cacdf9844a5943ad15535b637b9c2052ea27ee6",
+  "purpose": "Training-split demonstration only, not an independent accuracy evaluation",
+  "selection": "First training row for ufpr05 if available, otherwise first training row; no outcome-based selection"
+}

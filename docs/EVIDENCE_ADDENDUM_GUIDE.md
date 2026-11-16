@@ -1,0 +1,13 @@
+# Dated evidence addendum
+
+The seven-page PDF at `output/pdf/smart_parking_evidence_addendum_20261027.pdf` supplements the earlier twelve-page technical report. It does not replace its editable LaTeX source or establish university compliance. It freezes input evidence at 27 October 2026, 00:50 IST (26 October, 19:20 UTC). The report's 87-trial snapshot excludes its subsequent artifact QA; the continuation ledger advances to 88.
+
+The pages cover current software versus scientific claims; conditional regions and rejected occupancy promotion; partial-label traffic mask comparisons; separate Birmingham final and Singapore development/prospective cohorts; six previously provisional data groups; software acceptance and remaining work; and the evidence index. The six groups are now three development-exposed dates and three consumed final dates. This is not a claim that no new data can ever be acquired.
+
+Exact source copies and SHA-256 values are in `reports/evidence_addendum_20261027/inputs/` and `report_inputs.json`. Authored text/tables, two charts, rendered page PNGs and the builder are retained. ReportLab typesets the PDF; the existing project Python generates Matplotlib charts, and bundled Poppler renders the pages. No new package was installed. Another host would need compatible libraries/fonts and adjusted runtime paths; byte-identical fresh-machine rebuilding is not claimed.
+
+The report reads saved results and metadata only. It does not open raw consumed image groups, interpret new XML labels, run models or score learned prospective targets. All seven actual rendered pages were reviewed; text extraction, required result/limitation language, page count, character bounds, duplicate PDF identity and 17 input hashes passed. Four new metadata-role fixtures bring the software suite to 392 tests. Neither a test count nor a run count is a project accuracy percentage.
+
+The frozen source CSV retains an earlier initial-discovery status placeholder for PKLot. The master source record was subsequently clarified to reflect its already-recorded CC BY 4.0 use; the snapshot was not silently rewritten. All older reports, failed experiments, original data, pretrained weights and best verified checkpoints remain preserved.
+
+Use the addendum for explanation and review, with the earlier report and exact experiment records. Student mastery, visible/manual dialogs, physical offline operation on the intended machine, new-machine acceptance and official university-document auditing remain separate. Singapore learned performance remains pending the fixed 27 October, 16:21 IST closure.

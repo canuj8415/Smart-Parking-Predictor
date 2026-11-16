@@ -1,0 +1,11 @@
+{
+  "image_size": [1920, 1080],
+  "line": [[100, 700], [1900, 700]],
+  "entry_direction": "negative_to_positive",
+  "confidence": 0.7,
+  "max_distance_fraction": 0.06,
+  "max_gap_seconds": 0.75,
+  "deadband_pixels": 6.0,
+  "stable_observations": 2,
+  "ambiguity_ratio": 1.5
+}
